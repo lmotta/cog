@@ -3,17 +3,17 @@
   "name": "lasa_alert_days",
   "mapView": {
     "center": [
-      -60.670194625837325,
-      1.453043607469983
+      -60.68438593006783,
+      1.2614887037162104
     ],
-    "zoom": 6.837557201672337,
+    "zoom": 11.046944293737237,
     "bearing": 0,
     "pitch": 0,
     "bbox": [
-      -65.26903807150052,
-      -1.9109696110224765,
-      -56.0713511801722,
-      4.807732425383865
+      -60.92536591982412,
+      1.0847926183719065,
+      -60.44340594031854,
+      1.4381624841696377
     ]
   },
   "basemapStyleUrl": "https://tiles.openfreemap.org/styles/liberty",
@@ -200,7 +200,7 @@
         "type": "geojson",
         "url": "https://raw.githubusercontent.com/lmotta/cog/refs/heads/main/area_imovel_rr.pmtiles"
       },
-      "visible": true,
+      "visible": false,
       "opacity": 1,
       "style": {
         "minZoom": 0,
