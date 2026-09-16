@@ -10,10 +10,10 @@
     "bearing": 0,
     "pitch": 0,
     "bbox": [
-      -47.35093683328466,
-      -10.697641045746575,
-      -46.565306347922956,
-      -9.988439218669878
+      -47.242031726917105,
+      -10.697547085244633,
+      -46.6742114542742,
+      -9.988759859043267
     ]
   },
   "basemapStyleUrl": "https://tiles.openfreemap.org/styles/liberty",
@@ -339,7 +339,8 @@
       "showPointerElevation": false,
       "terrainEnabled": false,
       "coordinateFormat": "dd",
-      "mapboxStyleUrl": "mapbox://styles/mapbox/standard"
+      "mapboxStyleUrl": "mapbox://styles/mapbox/standard",
+      "cesiumBasemap": "project"
     },
     "environmentVariables": [],
     "geocoding": {
@@ -378,7 +379,79 @@
     "title": "Legend",
     "groupByLayer": true,
     "order": [],
-    "overrides": {}
+    "overrides": {},
+    "customEntries": {
+      "raster-4co2hu3": {
+        "title": "alert_days_2026.09.15.tif",
+        "items": [
+          {
+            "label": "1",
+            "color": "#ff0000"
+          },
+          {
+            "label": "2",
+            "color": "#ff8000"
+          },
+          {
+            "label": "3",
+            "color": "#ffbf00"
+          },
+          {
+            "label": "4",
+            "color": "#ffff00"
+          },
+          {
+            "label": "5",
+            "color": "#bfff00"
+          },
+          {
+            "label": "6",
+            "color": "#80ff00"
+          },
+          {
+            "label": "7",
+            "color": "#40ff40"
+          },
+          {
+            "label": "8",
+            "color": "#00ff80"
+          },
+          {
+            "label": "9",
+            "color": "#00ffbf"
+          },
+          {
+            "label": "10",
+            "color": "#00ffff"
+          },
+          {
+            "label": "11",
+            "color": "#00bfff"
+          },
+          {
+            "label": "12",
+            "color": "#0080ff"
+          },
+          {
+            "label": "13",
+            "color": "#0040ff"
+          },
+          {
+            "label": "14",
+            "color": "#0000ff"
+          },
+          {
+            "label": "15",
+            "color": "#2000bf"
+          },
+          {
+            "label": "255",
+            "color": "#c8c8c8"
+          }
+        ]
+      }
+    },
+    "panelVisible": true
   },
   "metadata": {}
 }
